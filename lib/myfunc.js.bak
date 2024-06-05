@@ -1,7 +1,7 @@
 /**
-   * Create By Dika Ardnt.
+   * Create By Arslan king.
    * Contact Me on wa.me/923035171619
-   * Follow https://github.com/DikaArdnt
+   * Follow https://www.instagram.com/arslan0299?igsh=YzljYTk1ODg3Zg==
 */
 
 const { proto, delay, getContentType, areJidsSameUser, generateWAMessage } = require("@whiskeysockets/baileys")
