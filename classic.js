@@ -1421,7 +1421,7 @@ break
 //=================================================//
 case 'addprem':
 if (!isCreator) return reply('*Premium Command*')
-if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 258869103969`)
+if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 923035171619`)
 bnnd = text.split("|")[0].replace(/[^0-9]/g, '')
 let ceknye = await zetsubo.onWhatsApp(bnnd + `@s.whatsapp.net`)
 if (ceknye.length == 0) return reply(`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsApp!!!`)
@@ -1432,7 +1432,7 @@ break
 //=================================================//
 case 'delprem':
 if (!isCreator) return reply('*Premium Command*')
-if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 258869103969`)
+if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 923035171619`)
 yaki = text.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(yaki)
 owner.splice(unp, 1)
